@@ -1,0 +1,16 @@
+local games = {
+    [7381705] = 'f6c9f276f7d6a7dd6edfd0173d7a211d', -- Fisch
+    [34671275] = '68dca2660c852ebceccd3196b8cbc465', -- BLR
+    [11867394] = '725ce097c244a8e5ee7cd4625820718a', -- DR
+    [34644452] = '7d62d8d6c100c07fe0bee9ca371cdffe', -- AC
+    [35687503] = '5a8678a607751f74d8042b9b46bf00c8', -- Hunters
+    [3333298] = '4df8f816d04143ecfb2f7523fbeeaf39', -- BGSI
+}
+
+local function getApiKey(placeId)
+    return games[placeId]
+end
+
+return {
+    getApiKey = getApiKey
+}
