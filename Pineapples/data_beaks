@@ -87,5 +87,16 @@ return{
         ["Black Duck"] = {Weight = {1000, 1500}, Rarity = "Common", From = "Quill Lake"},
         ["Buzzard"] = {Weight = {900, 1300}, Rarity = "Uncommon", From = "Mount Beaks"},
         ["Mutant Eagle"] = {Weight = {2500, 3000}, Rarity = "Legendary", From = "Deadlands"}
+    },
+
+    Guns = {
+        ["Deadlands Long-Rifle"] = {Price = "40000", Level = "30", Rarity = "Rare", Region = "Deadlands"},
+        ["Hunter's Rifle"] = {Price = "1500", Level = "5", Rarity = "Common", Region = "Beakwoods"},
+        ["Lakeborne Rifle"] = {Price = "12500", Level = "15", Rarity = "Uncommon", Region = "Quill Lake"},
+        ["Viper Rifle"] = {Price = "50000", Level = "35", Rarity = "Legendary", Region = "Deadlands"},
+        ["Beakwood Rifle"] = {Price = "nil", Rarity = "Common", Region = "Beakwoods"},
+        ["Summit Rifle"] = {Price = "20000", Level = "20", Rarity = "Rare", Region = "Mount Beaks"},
+        ["Mt.Beaks Long-Rifle"] = {Price = "30000", Level = "20", Rarity = "Rare", Region = "Mount Beaks"},
+        ["Lakeborne Shotgun"] = {Price = "7500", Level = "10", Rarity = "Uncommon", Region = "Quill Lake"}
     }
 }
