@@ -9,6 +9,7 @@ local games = {
     [35789249] = 'f555603a0a22b96892c9d9fbf39c037b', -- GAG
     [35815907] = '85fbf93801370dc0ce414038ac1a7bfc', -- SAB
     [6042520] = '02d1d363753cf3619fec01879ac9d6ce', -- 99 Nights
+    [34869880] = 'e22246142bf6dbde9d234767e96ca3d2', -- PVB
 }
 
 local function getApiKey(placeId)
