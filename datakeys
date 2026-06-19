@@ -13,6 +13,7 @@ local games = {
     [35102746] = '3e03dd39f7f2bd3b75be21e84274b872', -- Fish It
     [35489258] = '1eb844a64d13e44985a2ef6536e85b47', -- The Forge
     [34898222] = '9777827e72891e690d7d595589280cd2', -- Abyss
+    [432538536] = 'a16bf7e651056834ad414301d707374e', -- Grow A Garden 2
 }
 
 local function getApiKey(placeId)
